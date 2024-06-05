@@ -18,3 +18,10 @@ Next add the file in styles/app.css and generate tailwindcss file.
 ```bash
 npx tailwindcss -i ./styles/app.css -o ./static/css/app.css --watch
 ```
+
+
+## Starting the app
+
+```bash
+fastapi dev main.py
+```
